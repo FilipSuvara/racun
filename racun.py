@@ -1,6 +1,7 @@
-kol-mleko=int (input("unesite koliko mleka"))
-cena-mleko=int(input("unesite koliko jedno kosta"))
-kol-hleb=int (input("unesite koliko hlebova"))
-cena-hleb=int(input("koliko kosta jedan"))
+kol_mleko=int (input("unesite koliko mleka"))
+cena_mleko=int(input("unesite koliko jedno kosta"))
+kol_hleb=int (input("unesite koliko hlebova"))
+cena_hleb=int(input("koliko kosta jedan"))
 budzet=("koliko imate para")
-ukupno=budzet - kol-mleko*cena-mleko+kol-hleb*cena-hleb
+ukupno= budzet - kol_mleko*cena_mleko + kol_hleb*cena_hleb
+print(ukupno)
